@@ -23,7 +23,7 @@ const Footer = () => {
               GitHub
             </S.SocialLink>
             <S.SocialLink
-              href="https://linkedin.com/in/pedro-guerra"
+              href="https://www.linkedin.com/in/pedro-oliveira-042a74245/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
