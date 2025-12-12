@@ -1,4 +1,5 @@
 import * as S from './About.styles';
+import profileImage from '../../images/selfieEu.jpg';
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
           <S.SectionTitle>Sobre Mim</S.SectionTitle>
           <S.AboutMeContent>
             <S.ProfileImage
-              src="src/images/selfieEU.jpg"
+              src={profileImage}
               alt="Pedro Guerra"
             />
             <S.SectionText>
