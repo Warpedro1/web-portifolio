@@ -89,6 +89,42 @@ src/
 └── main.tsx         # Ponto de entrada
 ```
 
+## 🚀 Deploy no Netlify
+
+O projeto está configurado para deploy no Netlify. Siga os passos abaixo:
+
+### Opção 1: Deploy via GitHub (Recomendado)
+
+1. Faça push do código para o GitHub (já feito)
+2. Acesse [Netlify](https://www.netlify.com/)
+3. Faça login e clique em "Add new site" > "Import an existing project"
+4. Conecte seu repositório GitHub
+5. Selecione o repositório `web-portifolio`
+6. As configurações já estão no arquivo `netlify.toml`:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+7. Clique em "Deploy site"
+
+### Opção 2: Deploy via Netlify CLI
+
+```bash
+# Instalar Netlify CLI globalmente
+npm install -g netlify-cli
+
+# Fazer login
+netlify login
+
+# Deploy
+netlify deploy --prod
+```
+
+### Configurações
+
+O arquivo `netlify.toml` já está configurado com:
+- Comando de build: `npm run build`
+- Diretório de publicação: `dist`
+- Redirects para SPA (React Router funcionará corretamente)
+
 ## 📝 Licença
 
 Este projeto é de código aberto e está disponível sob a licença MIT.

@@ -14,7 +14,7 @@ const Footer = () => {
           <S.FooterTitle>Redes Sociais</S.FooterTitle>
           <S.SocialLinks>
             <S.SocialLink
-              href="https://github.com/warpedro1"
+              href="https://github.com/Warpedro1/web-portifolio"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
