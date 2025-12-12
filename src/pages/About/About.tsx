@@ -6,13 +6,19 @@ const About = () => {
       <S.AboutContent>
         <S.Section>
           <S.SectionTitle>Sobre Mim</S.SectionTitle>
-          <S.SectionText>
-            Quero expandir minhas experiências e aprimorar meus conhecimentos. Sou bom em organizar
-            o tempo e trabalhar em equipe, também adoro experimentar novos frameworks e aprender
-            novas linguagens e diferentes áreas da computação. Adoro praticar exercícios e levar uma
-            vida saudável. Busco uma posição em uma empresa inovadora que permita o uso e o
-            desenvolvimento de habilidades técnicas.
-          </S.SectionText>
+          <S.AboutMeContent>
+            <S.ProfileImage
+              src="src/images/selfieEU.jpg"
+              alt="Pedro Guerra"
+            />
+            <S.SectionText>
+              Quero expandir minhas experiências e aprimorar meus conhecimentos. Sou bom em organizar
+              o tempo e trabalhar em equipe, também adoro experimentar novos frameworks e aprender
+              novas linguagens e diferentes áreas da computação. Adoro praticar exercícios e levar uma
+              vida saudável. Busco uma posição em uma empresa inovadora que permita o uso e o
+              desenvolvimento de habilidades técnicas.
+            </S.SectionText>
+          </S.AboutMeContent>
         </S.Section>
 
         <S.Section>
@@ -44,12 +50,12 @@ const About = () => {
         <S.Section>
           <S.SectionTitle>Experiência</S.SectionTitle>
           <S.ExperienceItem>
-            <S.ExperienceTitle>Estagiário em Desenvolvedor de Software</S.ExperienceTitle>
-            <S.ExperienceCompany>Assembleia Legislativa de Pernambuco (Alepe)</S.ExperienceCompany>
-            <S.ExperiencePeriod>Novembro 2023 - Presente</S.ExperiencePeriod>
+            <S.ExperienceTitle> Desenvolvedor de Software</S.ExperienceTitle>
+            <S.ExperienceCompany>COOPANESTPE</S.ExperienceCompany>
+            <S.ExperiencePeriod>Outubro 2025 - Presente</S.ExperiencePeriod>
             <S.ExperienceDescription>
               Desenvolvedor de Sistemas. Faço parte do planejamento da solução, utilizando
-              metodologias ágeis e processos de ideação. As linguagens mais usadas são Java e Python.
+              metodologias ágeis e processos de ideação.
             </S.ExperienceDescription>
           </S.ExperienceItem>
         </S.Section>

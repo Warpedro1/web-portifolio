@@ -19,6 +19,38 @@ export const Section = styled.section`
   gap: 1.5rem;
 `;
 
+export const AboutMeContent = styled.div`
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+`;
+
+export const ProfileImage = styled.img`
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid ${({ theme }) => theme.colors.accent};
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 250px;
+  }
+  
+  @media (max-width: 480px) {
+    width: 200px;
+    height: 200px;
+  }
+`;
+
 export const SectionTitle = styled.h2`
   font-size: 2.5rem;
   font-weight: 600;
