@@ -5,12 +5,6 @@ const Footer = () => {
     <S.FooterContainer>
       <S.FooterContent>
         <S.FooterSection>
-          <S.FooterTitle>Contato</S.FooterTitle>
-          <S.FooterText>Email: warpedro1@gmail.com</S.FooterText>
-          <S.FooterText>Telefone: +55 81 99168-5588</S.FooterText>
-        </S.FooterSection>
-        
-        <S.FooterSection>
           <S.FooterTitle>Redes Sociais</S.FooterTitle>
           <S.SocialLinks>
             <S.SocialLink
